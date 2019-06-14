@@ -11,7 +11,8 @@ The data generator for train the neural network with Robocup Rescue Simulation (
 ```bash
 
 $ git clone https://github.com/swhaKo/RCRS-deep-learning.git
-$ unzip RCRS-deep-learning/RCRS.zip
+$ cd RCRS-deep-learning/
+$ unzip RCRS.zip
 ```
 ## 3. Configuration
 
