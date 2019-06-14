@@ -6,11 +6,12 @@ The data generator for train the neural network with Robocup Rescue Simulation (
 - Git
 - OpenJDK Java 8+
 
-## 2. Download project from GitHub
+## 2. Download project from GitHub and decompress RCRS
 
 ```bash
 
 $ git clone https://github.com/swhaKo/RCRS-deep-learning.git
+$ unzip RCRS-deep-learning/RCRS.zip
 ```
 ## 3. Configuration
 
