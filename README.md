@@ -1,4 +1,4 @@
-# Disaster-ML-plugin-architecture
+# RCRS train data generator
 ART lab
 
 
