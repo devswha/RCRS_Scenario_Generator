@@ -1,0 +1,5 @@
+GRID_DRAW true
+CIVILIAN_DRAW true
+NAME_OF_MAPS Kobe_5 Kobe_5 Kobe_4 Kobe_4 Kobe_3 Kobe_3 Kobe_2 Kobe_2 Kobe_1 Kobe_1 Joao_2 Joao_2 Joao_1 Joao_1 kobe
+GRID_ROW 4
+GRID_COL 4
