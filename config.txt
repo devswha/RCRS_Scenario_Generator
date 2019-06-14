@@ -1,0 +1,34 @@
+###########################################################
+# Map data constant
+###########################################################
+NUM_OF_CIVILIANS 162
+NUM_OF_FIRES 6
+SEQUENCE_TIME_STEP 9
+LIMIT_TIME_STEP 0
+LIMIT_CIVILIAN_HP 9000
+
+###########################################################
+# Train data constant
+###########################################################
+TRAIN_START_MAP_NUM 1
+TRAIN_END_MAP_NUM 10000
+TRAIN_STEP 20000
+
+###########################################################
+# Test data constant
+###########################################################
+TEST_START_MAP_NUM 1
+TEST_END_MAP_NUM 1000
+
+###########################################################
+# Directory data constant
+###########################################################
+DATASET_DIR ./dataset2
+TRAIN_GENERATED_MAP_DIR ./dataset2/raw/train/generated_map
+TRAIN_GENERATED_IMAGE_DIR ./dataset2/raw/train/generated_image
+TRAIN_GENERATED_NPY_DIR ./dataset2/raw/train/generated_map
+TEST_GENERATED_MAP_DIR ./dataset2/raw/test/generated_map
+TEST_GENERATED_IMAGE_DIR ./dataset2/raw/test/generated_image
+MODELS_DIR ./model_new
+RESULTS_DIR ./result
+
