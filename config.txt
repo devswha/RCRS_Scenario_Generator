@@ -11,7 +11,7 @@ LIMIT_CIVILIAN_HP 9000
 # Train data constant
 ###########################################################
 TRAIN_START_MAP_NUM 1
-TRAIN_END_MAP_NUM 10000
+TRAIN_END_MAP_NUM 10
 TRAIN_STEP 20000
 
 ###########################################################
