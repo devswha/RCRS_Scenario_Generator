@@ -1,0 +1,1292 @@
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Reading included config 'gis.cfg'
+TRACE startup : Setting 'gis.map.dir' to '/home/ali/maps/test/Berlin3/map'
+TRACE startup : Setting 'gis.map.file' to 'map.gml'
+TRACE startup : Setting 'gis.map.scenario' to 'scenario.xml'
+TRACE startup : Setting 'gis.map.floor-placement.random' to 'true'
+TRACE startup : Setting 'gis.map.floor-placement.random.floor-rate.1' to '2'
+TRACE startup : Setting 'gis.map.floor-placement.random.floor-rate.2' to '1'
+TRACE startup : Setting 'gis.map.floor-placement.random.floor-rate.3' to '1'
+TRACE startup : Reading included config 'comms.cfg'
+TRACE startup : Reading included config 'comms/comms-01-full.cfg'
+TRACE startup : Setting 'comms.channels.count' to '2'
+TRACE startup : Setting 'comms.channels.0.type' to 'voice'
+TRACE startup : Setting 'comms.channels.0.range' to '30000'
+TRACE startup : Setting 'comms.channels.0.messages.size' to '256'
+TRACE startup : Setting 'comms.channels.0.messages.max' to '1'
+TRACE startup : Setting 'comms.channels.0.noise.input.dropout.use' to 'yes'
+TRACE startup : Setting 'comms.channels.0.noise.input.dropout.p' to '0.1'
+TRACE startup : Setting 'comms.channels.1.type' to 'radio'
+TRACE startup : Setting 'comms.channels.1.bandwidth' to '4000'
+TRACE startup : Setting 'comms.channels.max.platoon' to '2'
+TRACE startup : Setting 'comms.channels.max.centre' to '2'
+TRACE startup : Reading included config 'perception.cfg'
+TRACE startup : Setting 'perception.standard.view-distance' to '10000'
+TRACE startup : Setting 'perception.standard.use-far-fires' to 'true'
+TRACE startup : Setting 'perception.standard.far-fire-distance' to '10000'
+TRACE startup : Setting 'perception.standard.hp-precision' to '1000'
+TRACE startup : Setting 'perception.standard.damage-precision' to '100'
+TRACE startup : Setting 'perception.los.max-distance' to '30000'
+TRACE startup : Setting 'perception.los.ray-count' to '72'
+TRACE startup : Setting 'perception.los.precision.hp' to '1000'
+TRACE startup : Setting 'perception.los.precision.damage' to '50'
+TRACE startup : Reading included config 'score.cfg'
+TRACE startup : Setting 'score.function' to 'rescuecore2.standard.score.LegacyScoreFunction'
+TRACE startup : Setting 'score.standard.building-fire.heating' to '0.66'
+TRACE startup : Setting 'score.standard.building-fire.burning' to '0.33'
+TRACE startup : Setting 'score.standard.building-fire.inferno' to '0.0'
+TRACE startup : Setting 'score.standard.building-fire.water-damage' to '0.90'
+TRACE startup : Setting 'score.standard.building-fire.minor-damage' to '0.75'
+TRACE startup : Setting 'score.standard.building-fire.moderate-damage' to '0.5'
+TRACE startup : Setting 'score.standard.building-fire.severe-damage' to '0.25'
+TRACE startup : Setting 'score.standard.building-fire.burnt-out' to '0'
+TRACE startup : Setting 'score.standard.building-fire.absolute' to 'false'
+TRACE startup : Setting 'score.standard.health.absolute' to 'false'
+TRACE startup : Reading included config 'collapse.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'collapse.wood.p-destroyed' to '0.2'
+TRACE startup : Setting 'collapse.wood.p-severe' to '0.15'
+TRACE startup : Setting 'collapse.wood.p-moderate' to '0.15'
+TRACE startup : Setting 'collapse.wood.p-slight' to '0.1'
+TRACE startup : Setting 'collapse.wood.p-none' to '0.4'
+TRACE startup : Setting 'collapse.steel.p-destroyed' to '0.2'
+TRACE startup : Setting 'collapse.steel.p-severe' to '0.2'
+TRACE startup : Setting 'collapse.steel.p-moderate' to '0.2'
+TRACE startup : Setting 'collapse.steel.p-slight' to '0.2'
+TRACE startup : Setting 'collapse.steel.p-none' to '0.2'
+TRACE startup : Setting 'collapse.concrete.p-destroyed' to '0.35'
+TRACE startup : Setting 'collapse.concrete.p-severe' to '0.25'
+TRACE startup : Setting 'collapse.concrete.p-moderate' to '0.2'
+TRACE startup : Setting 'collapse.concrete.p-slight' to '0.1'
+TRACE startup : Setting 'collapse.concrete.p-none' to '0.1'
+TRACE startup : Setting 'collapse.destroyed.mean' to '100'
+TRACE startup : Setting 'collapse.destroyed.sd' to '5'
+TRACE startup : Setting 'collapse.severe.mean' to '75'
+TRACE startup : Setting 'collapse.severe.sd' to '5'
+TRACE startup : Setting 'collapse.moderate.mean' to '50'
+TRACE startup : Setting 'collapse.moderate.sd' to '5'
+TRACE startup : Setting 'collapse.slight.mean' to '25'
+TRACE startup : Setting 'collapse.slight.sd' to '5'
+TRACE startup : Setting 'collapse.create-road-blockages' to 'true'
+TRACE startup : Setting 'collapse.floor-height' to '7'
+TRACE startup : Setting 'collapse.wall-extent.min' to '0.1'
+TRACE startup : Setting 'collapse.wall-extent.max' to '0.4'
+TRACE startup : Reading included config 'clear.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'clear.repair.rate' to '15'
+TRACE startup : Setting 'clear.repair.distance' to '10000'
+TRACE startup : Setting 'clear.repair.rad' to '2000'
+TRACE startup : Reading included config 'misc.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'misc.buriedness.wood.none.value' to '0'
+TRACE startup : Setting 'misc.buriedness.wood.partial.value' to '20'
+TRACE startup : Setting 'misc.buriedness.wood.half.value' to '30'
+TRACE startup : Setting 'misc.buriedness.wood.all.value' to '60'
+TRACE startup : Setting 'misc.buriedness.steel.none.value' to '0'
+TRACE startup : Setting 'misc.buriedness.steel.partial.value' to '20'
+TRACE startup : Setting 'misc.buriedness.steel.half.value' to '35'
+TRACE startup : Setting 'misc.buriedness.steel.all.value' to '70'
+TRACE startup : Setting 'misc.buriedness.concrete.none.value' to '0'
+TRACE startup : Setting 'misc.buriedness.concrete.partial.value' to '35'
+TRACE startup : Setting 'misc.buriedness.concrete.half.value' to '60'
+TRACE startup : Setting 'misc.buriedness.concrete.all.value' to '80'
+TRACE startup : Setting 'misc.buriedness.wood.none.rate' to '0'
+TRACE startup : Setting 'misc.buriedness.wood.partial.rate' to '1'
+TRACE startup : Setting 'misc.buriedness.wood.half.rate' to '1'
+TRACE startup : Setting 'misc.buriedness.wood.all.rate' to '1'
+TRACE startup : Setting 'misc.buriedness.steel.none.rate' to '0'
+TRACE startup : Setting 'misc.buriedness.steel.partial.rate' to '0.008'
+TRACE startup : Setting 'misc.buriedness.steel.half.rate' to '0.008'
+TRACE startup : Setting 'misc.buriedness.steel.all.rate' to '0.008'
+TRACE startup : Setting 'misc.buriedness.concrete.none.rate' to '0'
+TRACE startup : Setting 'misc.buriedness.concrete.partial.rate' to '0.008'
+TRACE startup : Setting 'misc.buriedness.concrete.half.rate' to '0.008'
+TRACE startup : Setting 'misc.buriedness.concrete.all.rate' to '0.008'
+TRACE startup : Setting 'misc.injury.collapse.wood.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.collapse.wood.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.collapse.wood.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.collapse.wood.partial.slight' to '0.5'
+TRACE startup : Setting 'misc.injury.collapse.wood.partial.serious' to '0.3'
+TRACE startup : Setting 'misc.injury.collapse.wood.partial.critical' to '0.02'
+TRACE startup : Setting 'misc.injury.collapse.wood.half.slight' to '0.5'
+TRACE startup : Setting 'misc.injury.collapse.wood.half.serious' to '0.3'
+TRACE startup : Setting 'misc.injury.collapse.wood.half.critical' to '0.02'
+TRACE startup : Setting 'misc.injury.collapse.wood.all.slight' to '0.5'
+TRACE startup : Setting 'misc.injury.collapse.wood.all.serious' to '0.3'
+TRACE startup : Setting 'misc.injury.collapse.wood.all.critical' to '0.02'
+TRACE startup : Setting 'misc.injury.collapse.steel.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.collapse.steel.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.collapse.steel.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.collapse.steel.partial.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.steel.partial.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.steel.partial.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.steel.half.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.steel.half.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.steel.half.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.steel.all.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.steel.all.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.steel.all.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.concrete.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.collapse.concrete.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.collapse.concrete.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.collapse.concrete.partial.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.concrete.partial.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.concrete.partial.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.concrete.half.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.concrete.half.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.concrete.half.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.concrete.all.slight' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.concrete.all.serious' to '0.03'
+TRACE startup : Setting 'misc.injury.collapse.concrete.all.critical' to '0.005'
+TRACE startup : Setting 'misc.injury.collapse.slight' to '2'
+TRACE startup : Setting 'misc.injury.collapse.serious' to '10'
+TRACE startup : Setting 'misc.injury.collapse.critical' to '10000'
+TRACE startup : Setting 'misc.injury.collapse.multiplier.ambulance' to '0.2'
+TRACE startup : Setting 'misc.injury.collapse.multiplier.police' to '0.2'
+TRACE startup : Setting 'misc.injury.collapse.multiplier.fire' to '0.2'
+TRACE startup : Setting 'misc.injury.bury.wood.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.bury.wood.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.bury.wood.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.bury.wood.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.wood.partial.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.wood.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.wood.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.wood.half.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.wood.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.wood.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.wood.all.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.wood.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.steel.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.bury.steel.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.bury.steel.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.bury.steel.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.steel.partial.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.steel.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.steel.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.steel.half.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.steel.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.steel.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.steel.all.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.steel.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.concrete.none.slight' to '0'
+TRACE startup : Setting 'misc.injury.bury.concrete.none.serious' to '0'
+TRACE startup : Setting 'misc.injury.bury.concrete.none.critical' to '0'
+TRACE startup : Setting 'misc.injury.bury.concrete.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.concrete.partial.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.concrete.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.concrete.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.concrete.half.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.concrete.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.concrete.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.bury.concrete.all.serious' to '0.5'
+TRACE startup : Setting 'misc.injury.bury.concrete.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.slight' to '3'
+TRACE startup : Setting 'misc.injury.bury.serious' to '15'
+TRACE startup : Setting 'misc.injury.bury.critical' to '100'
+TRACE startup : Setting 'misc.injury.bury.multiplier.ambulance' to '0.2'
+TRACE startup : Setting 'misc.injury.bury.multiplier.police' to '0.2'
+TRACE startup : Setting 'misc.injury.bury.multiplier.fire' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.wood.none.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.wood.none.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.wood.none.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.wood.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.wood.partial.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.wood.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.wood.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.wood.half.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.wood.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.wood.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.wood.all.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.wood.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.steel.none.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.steel.none.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.steel.none.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.steel.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.steel.partial.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.steel.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.steel.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.steel.half.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.steel.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.steel.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.steel.all.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.steel.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.concrete.none.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.concrete.none.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.concrete.none.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.concrete.partial.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.concrete.partial.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.concrete.partial.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.concrete.half.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.concrete.half.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.concrete.half.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.concrete.all.slight' to '0.4'
+TRACE startup : Setting 'misc.injury.fire.concrete.all.serious' to '0.2'
+TRACE startup : Setting 'misc.injury.fire.concrete.all.critical' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.slight' to '5'
+TRACE startup : Setting 'misc.injury.fire.serious' to '20'
+TRACE startup : Setting 'misc.injury.fire.critical' to '100'
+TRACE startup : Setting 'misc.injury.fire.multiplier.ambulance' to '1'
+TRACE startup : Setting 'misc.injury.fire.multiplier.police' to '1'
+TRACE startup : Setting 'misc.injury.fire.multiplier.fire' to '0.2'
+TRACE startup : Setting 'misc.injury.collapse.k' to '0.00025'
+TRACE startup : Setting 'misc.injury.collapse.l' to '0.01'
+TRACE startup : Setting 'misc.injury.collapse.noise.mean' to '0.1'
+TRACE startup : Setting 'misc.injury.collapse.noise.sd' to '0.01'
+TRACE startup : Setting 'misc.injury.bury.k' to '0.000035'
+TRACE startup : Setting 'misc.injury.bury.l' to '0.01'
+TRACE startup : Setting 'misc.injury.bury.noise.mean' to '0.1'
+TRACE startup : Setting 'misc.injury.bury.noise.sd' to '0.01'
+TRACE startup : Setting 'misc.injury.fire.k' to '0.00025'
+TRACE startup : Setting 'misc.injury.fire.l' to '0.03'
+TRACE startup : Setting 'misc.injury.fire.noise.mean' to '0.1'
+TRACE startup : Setting 'misc.injury.fire.noise.sd' to '0.01'
+TRACE startup : Reading included config 'resq-fire.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'resq-fire.water_capacity' to '15000'
+TRACE startup : Setting 'fire.tank.maximum' to '15000'
+TRACE startup : Setting 'resq-fire.water_refill_rate' to '1500'
+TRACE startup : Setting 'fire.tank.refill_rate' to '1500'
+TRACE startup : Setting 'resq-fire.water_hydrant_refill_rate' to '400'
+TRACE startup : Setting 'fire.tank.refill_hydrant_rate' to '400'
+TRACE startup : Setting 'resq-fire.water_distance' to '50000'
+TRACE startup : Setting 'fire.extinguish.max-distance' to '50000'
+TRACE startup : Setting 'fire.extinguish.max-sum' to '3000'
+TRACE startup : Setting 'resq-fire.max_extinguish_power_sum' to '3000'
+TRACE startup : Setting 'resq-fire.rays.dir' to 'rays'
+TRACE startup : Setting 'resq-fire.wind_speed' to '0'
+TRACE startup : Setting 'resq-fire.steel_capacity' to '1.0'
+TRACE startup : Setting 'resq-fire.wooden_energy' to '2400.0'
+TRACE startup : Setting 'resq-fire.cell_size' to '5000'
+TRACE startup : Setting 'resq-fire.air_cell_heat_capacity' to '0.004'
+TRACE startup : Setting 'resq-fire.wooden_ignition' to '47.0'
+TRACE startup : Setting 'resq-fire.water_thermal_capacity' to '20'
+TRACE startup : Setting 'resq-fire.steel_burning' to '850.0'
+TRACE startup : Setting 'resq-fire.concrete_energy' to '350.0'
+TRACE startup : Setting 'resq-fire.air_to_air_flow' to '1.0'
+TRACE startup : Setting 'resq-fire.gamma' to '0.2'
+TRACE startup : Setting 'resq-fire.ambulancecenter_inflammable' to 'false'
+TRACE startup : Setting 'resq-fire.steel_ignition' to '47.0'
+TRACE startup : Setting 'resq-fire.wind_random' to '1'
+TRACE startup : Setting 'resq-fire.radiation_coefficient' to '0.011'
+TRACE startup : Setting 'resq-fire.steel_energy' to '800.0'
+TRACE startup : Setting 'resq-fire.wooden_burning' to '800.0'
+TRACE startup : Setting 'resq-fire.refuge_inflammable' to 'false'
+TRACE startup : Setting 'resq-fire.policeoffice_inflammable' to 'false'
+TRACE startup : Setting 'resq-fire.air_to_building_flow' to '0.0015'
+TRACE startup : Setting 'resq-fire.concrete_burning' to '800.0'
+TRACE startup : Setting 'resq-fire.wooden_capacity' to '1.1'
+TRACE startup : Setting 'resq-fire.concrete_ignition' to '47.0'
+TRACE startup : Setting 'resq-fire.wind_direction' to '100.0'
+TRACE startup : Setting 'resq-fire.concrete_speed' to '0.05'
+TRACE startup : Setting 'resq-fire.firestation_inflammable' to 'false'
+TRACE startup : Setting 'resq-fire.steel_speed' to '0.05'
+TRACE startup : Setting 'resq-fire.randomseed' to '23'
+TRACE startup : Setting 'resq-fire.concrete_capacity' to '1.5'
+TRACE startup : Setting 'resq-fire.wooden_speed' to '0.05'
+TRACE startup : Setting 'resq-fire.energy_loss' to '0.86'
+TRACE startup : Setting 'resq-fire.ray_rate' to '0.0025'
+TRACE startup : Setting 'resq-fire.max_ray_distance' to '200000'
+TRACE startup : Setting 'resq-fire.burn-rate-average' to '0.15'
+TRACE startup : Setting 'resq-fire.burn-rate-variance' to '0.02'
+TRACE startup : Reading included config 'traffic3.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Reading included config 'ignition.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'ignition.random.lambda' to '0.05'
+TRACE startup : Setting 'ignition.gas_station.explosion.range' to '50000'
+TRACE startup : Reading included config 'civilian.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Setting 'civilian.help.probability' to '0.1'
+TRACE startup : Setting 'civilian.ouch.probability' to '0.1'
+TRACE startup : Setting 'civilian.conscious.threshold' to '2500'
+TRACE startup : Reading included config 'sample-agents.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Reading included config 'viewer.cfg'
+TRACE startup : Reading included config 'common.cfg'
+TRACE startup : Reading included config 'types.cfg'
+TRACE startup : Setting 'loadabletypes.inspect.dir' to '../jars'
+TRACE startup : Setting 'loadabletypes.inspect.deep' to 'yes'
+TRACE startup : Setting 'random.seed' to '77'
+TRACE startup : Setting 'kernel.host' to 'localhost'
+TRACE startup : Setting 'kernel.port' to '7000'
+TRACE startup : Setting 'senario.human.random-id' to 'true'
+TRACE startup : Reading included config 'score.cfg'
+TRACE startup : Setting 'score.function' to 'rescuecore2.standard.score.LegacyScoreFunction'
+TRACE startup : Setting 'score.standard.building-fire.heating' to '0.66'
+TRACE startup : Setting 'score.standard.building-fire.burning' to '0.33'
+TRACE startup : Setting 'score.standard.building-fire.inferno' to '0.0'
+TRACE startup : Setting 'score.standard.building-fire.water-damage' to '0.90'
+TRACE startup : Setting 'score.standard.building-fire.minor-damage' to '0.75'
+TRACE startup : Setting 'score.standard.building-fire.moderate-damage' to '0.5'
+TRACE startup : Setting 'score.standard.building-fire.severe-damage' to '0.25'
+TRACE startup : Setting 'score.standard.building-fire.burnt-out' to '0'
+TRACE startup : Setting 'score.standard.building-fire.absolute' to 'false'
+TRACE startup : Setting 'score.standard.health.absolute' to 'false'
+TRACE startup : Setting 'view.standard.human.icons.size' to '24'
+TRACE startup : Setting 'view.standard.human.icons.use' to 'no'
+TRACE startup : Setting 'kernel.logname' to 'logs/rescue.log'
+TRACE startup : Setting 'kernel.timesteps' to '200'
+TRACE startup : Setting 'kernel.termination' to 'kernel.TimestepTerminationCondition'
+TRACE startup : Setting 'kernel.agents.think-time' to '1000'
+TRACE startup : Setting 'kernel.agents.ignoreuntil' to '3'
+TRACE startup : Setting 'kernel.commandcollectors' to 'kernel.TimedCommandCollector'
+TRACE startup : Setting 'kernel.commandfilters' to 'kernel.WrongTimeCommandFilter'
+TRACE startup : Appending 'kernel.FrozenAgentsCommandFilter' to 'kernel.commandfilters'
+TRACE startup : Appending 'rescuecore2.standard.kernel.DeadAgentsCommandFilter' to 'kernel.commandfilters'
+TRACE startup : Appending 'rescuecore2.standard.kernel.BuriedAgentsCommandFilter' to 'kernel.commandfilters'
+TRACE startup : Appending 'rescuecore2.standard.kernel.SingleCommandFilter' to 'kernel.commandfilters'
+TRACE startup : Setting 'kernel.agents.registrar' to 'rescuecore2.standard.kernel.StandardAgentRegistrar'
+TRACE startup : Setting 'kernel.startup.connect-time' to '300000'
+TRACE startup : Setting 'kernel.gis.auto' to 'gis2.GMLWorldModelCreator'
+TRACE startup : Setting 'kernel.perception.auto' to 'rescuecore2.standard.kernel.LineOfSightPerception'
+TRACE startup : Setting 'kernel.communication.auto' to 'rescuecore2.standard.kernel.comms.ChannelCommunicationModel'
+TRACE startup : Setting 'kernel.ui.components' to 'rescuecore2.standard.kernel.StandardWorldModelViewerComponent'
+INFO startup : Looking for gis, perception, communication, agent, simulator and viewer implementations
+INFO startup : Processing jar directory: /media/swha/DATA/WorkDir/HPC_v3/RCRS/simulator/roborescue-v1.2/boot/../jars
+INFO startup : Processing ../jars/clear.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding clear.ClearSimulator to kernel.simulators
+INFO startup : Processing ../jars/collapse.jar
+DEBUG startup : Inspecting manifest...
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding collapse.CollapseSimulator to kernel.simulators
+INFO startup : Processing ../jars/gis2.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding gis2.GMLWorldModelCreator to kernel.gis
+INFO startup : Processing ../jars/handy.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Processing ../jars/human.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding human.ControlledAgentGUI$ControlViewer to kernel.viewers
+INFO startup : Adding human.ControlledAmbulanceTeam to kernel.agents
+INFO startup : Adding human.ControlledFireBrigade to kernel.agents
+INFO startup : Adding human.ControlledPoliceForce to kernel.agents
+INFO startup : Processing ../jars/ignition.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding ignition.IgnitionSimulator to kernel.simulators
+INFO startup : Processing ../jars/kernel.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding kernel.AbstractCommunicationModel to kernel.communication
+INFO startup : Adding kernel.RemoteGISWorldModelCreator to kernel.gis
+INFO startup : Processing ../jars/maps.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Processing ../jars/misc.jar
+DEBUG startup : Inspecting manifest...
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding misc.MiscSimulator to kernel.simulators
+INFO startup : Processing ../jars/resq-fire.jar
+DEBUG startup : Inspecting manifest...
+INFO startup : Adding firesimulator.FireSimulatorWrapper to kernel.simulators
+DEBUG startup : Looking for likely class names...
+INFO startup : Processing ../jars/sample.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding sample.SampleCentre to kernel.agents
+INFO startup : Adding sample.SampleAmbulanceTeam to kernel.agents
+INFO startup : Adding sample.SampleSimulator to kernel.simulators
+INFO startup : No INSTANCE field in class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Could not instantiate class sample.CustomRegistryTestAgent$CustomEntityFactory
+INFO startup : Adding sample.SamplePoliceForce to kernel.agents
+INFO startup : Adding sample.SampleCivilian to kernel.agents
+INFO startup : Adding sample.SampleViewer to kernel.viewers
+INFO startup : Adding sample.SampleFireBrigade to kernel.agents
+INFO startup : Processing ../jars/standard.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding rescuecore2.standard.components.StandardSimulator to kernel.simulators
+INFO startup : Adding rescuecore2.standard.components.StandardViewer to kernel.viewers
+INFO startup : Registered entity factory 'rescuecore2.standard.entities.StandardEntityFactory' with registry System
+INFO startup : Registered property factory 'rescuecore2.standard.entities.StandardPropertyFactory' with registry System
+INFO startup : Adding rescuecore2.standard.kernel.LineOfSightPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.StandardPerception to kernel.perception
+INFO startup : Adding rescuecore2.standard.kernel.comms.ChannelCommunicationModel to kernel.communication
+INFO startup : Adding rescuecore2.standard.kernel.comms.StandardCommunicationModel to kernel.communication
+INFO startup : Registered message factory 'rescuecore2.standard.messages.StandardMessageFactory' with registry System
+INFO startup : Processing ../jars/traffic3.jar
+DEBUG startup : Inspecting manifest...
+DEBUG startup : Looking for likely class names...
+INFO startup : Adding traffic3.simulator.TrafficSimulator to kernel.simulators
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/media/swha/DATA/WorkDir/HPC_v3/RCRS/simulator/roborescue-v1.2/lib/dom4j.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Building (18435) floor:2 random:3
+Building (32773) floor:2 random:3
+Building (29703) floor:1 random:1
+Building (24585) floor:3 random:4
+Building (26633) floor:1 random:1
+Building (27657) floor:1 random:1
+Building (10251) floor:2 random:3
+Building (11275) floor:1 random:2
+Building (14351) floor:1 random:1
+Building (15376) floor:1 random:1
+Building (21524) floor:2 random:3
+Building (23572) floor:3 random:4
+Building (13333) floor:3 random:4
+Building (16410) floor:1 random:2
+Building (26650) floor:1 random:2
+Building (28699) floor:3 random:4
+Building (20509) floor:1 random:2
+Building (18463) floor:1 random:2
+Building (22559) floor:1 random:1
+Building (25632) floor:1 random:2
+Building (33825) floor:1 random:1
+Building (19490) floor:1 random:2
+Building (29730) floor:3 random:4
+Building (32803) floor:3 random:4
+Building (24612) floor:3 random:4
+Building (27684) floor:1 random:1
+Building (32804) floor:2 random:3
+Building (10278) floor:3 random:4
+Building (11302) floor:2 random:3
+Building (17447) floor:1 random:2
+Building (14378) floor:3 random:4
+Building (15408) floor:3 random:4
+Building (25649) floor:3 random:4
+Building (16437) floor:3 random:4
+Building (26677) floor:2 random:3
+Building (28727) floor:1 random:2
+Building (33848) floor:1 random:2
+Building (18489) floor:1 random:2
+Building (22586) floor:1 random:2
+Building (20540) floor:1 random:1
+Building (29757) floor:2 random:3
+Building (24639) floor:1 random:2
+Building (10305) floor:2 random:3
+Building (11329) floor:1 random:1
+Building (17474) floor:1 random:1
+Building (27716) floor:1 random:1
+Building (14405) floor:3 random:4
+Building (32838) floor:1 random:1
+Building (23626) floor:2 random:3
+Building (32846) floor:1 random:2
+Building (16464) floor:2 random:3
+Building (25680) floor:2 random:3
+Building (26704) floor:3 random:4
+Building (28754) floor:1 random:1
+Building (32850) floor:3 random:4
+Building (21587) floor:1 random:1
+Building (18516) floor:3 random:4
+Building (22613) floor:3 random:4
+Building (19544) floor:1 random:2
+Building (12377) floor:2 random:3
+Building (13401) floor:2 random:3
+Building (29785) floor:3 random:4
+Building (20570) floor:1 random:2
+Building (24666) floor:3 random:4
+Building (11356) floor:1 random:2
+Building (33885) floor:2 random:3
+Building (17502) floor:1 random:1
+Building (27743) floor:2 random:3
+Building (10336) floor:2 random:3
+Building (14432) floor:1 random:1
+Building (15463) floor:1 random:1
+Building (16491) floor:1 random:1
+Building (25707) floor:2 random:3
+Building (26731) floor:1 random:1
+Building (21614) floor:3 random:4
+Building (22640) floor:1 random:1
+Building (33906) floor:2 random:3
+Building (19571) floor:1 random:1
+Building (18548) floor:2 random:3
+Building (29812) floor:1 random:2
+Building (20597) floor:3 random:4
+Building (24694) floor:3 random:4
+Building (11383) floor:2 random:3
+Building (10362) floor:2 random:3
+Building (14459) floor:1 random:2
+Building (27774) floor:3 random:4
+Building (23679) floor:2 random:3
+Building (15491) floor:1 random:2
+Building (18565) floor:2 random:3
+Building (30853) floor:1 random:1
+Building (16518) floor:2 random:3
+Building (21641) floor:3 random:4
+Building (25738) floor:2 random:3
+Building (26762) floor:1 random:1
+Building (28812) floor:2 random:3
+Building (13454) floor:2 random:3
+Building (19598) floor:3 random:4
+Building (22670) floor:1 random:2
+Building (29839) floor:2 random:3
+Building (11410) floor:3 random:4
+Building (17556) floor:1 random:1
+Building (10389) floor:3 random:4
+Building (24725) floor:1 random:1
+Building (30869) floor:2 random:3
+Building (14486) floor:3 random:4
+Building (33944) floor:1 random:2
+Building (27801) floor:2 random:3
+Building (23706) floor:1 random:2
+Building (12443) floor:1 random:2
+Building (18591) floor:1 random:1
+Building (16545) floor:1 random:2
+Building (32930) floor:1 random:2
+Building (32931) floor:2 random:3
+Building (27812) floor:2 random:3
+Building (25765) floor:1 random:1
+Building (26789) floor:3 random:4
+Building (21671) floor:1 random:2
+Building (28839) floor:2 random:3
+Building (13481) floor:1 random:1
+Building (19625) floor:2 random:3
+Building (22697) floor:1 random:1
+Building (20651) floor:1 random:1
+Building (29867) floor:1 random:2
+Building (36011) floor:3 random:4
+Building (36012) floor:3 random:4
+Building (17583) floor:3 random:4
+Building (10416) floor:3 random:4
+Building (24752) floor:2 random:3
+Building (14513) floor:2 random:3
+Building (11442) floor:1 random:2
+Building (23734) floor:2 random:3
+Building (12471) floor:3 random:4
+Building (16573) floor:2 random:3
+Building (18622) floor:1 random:2
+Building (15551) floor:3 random:4
+Building (27839) floor:3 random:4
+Building (25792) floor:1 random:2
+Building (26816) floor:1 random:2
+Building (30913) floor:3 random:4
+Building (17604) floor:3 random:4
+Building (19652) floor:3 random:4
+Building (22724) floor:3 random:4
+Building (32965) floor:2 random:3
+Building (21702) floor:1 random:1
+Building (32966) floor:3 random:4
+Building (20679) floor:1 random:2
+Building (13512) floor:1 random:2
+Building (29898) floor:1 random:1
+Building (14540) floor:3 random:4
+Building (11470) floor:3 random:4
+Building (24783) floor:1 random:1
+Building (23761) floor:1 random:2
+Building (12502) floor:2 random:3
+Building (16600) floor:1 random:2
+Building (18648) floor:2 random:3
+Building (15578) floor:2 random:3
+Building (27866) floor:2 random:3
+Building (32986) floor:1 random:2
+Building (26844) floor:2 random:3
+Building (30940) floor:1 random:1
+Building (19679) floor:1 random:2
+Building (22752) floor:3 random:4
+Building (36066) floor:1 random:2
+Building (28899) floor:1 random:2
+Building (21733) floor:1 random:2
+Building (29925) floor:1 random:2
+Building (13542) floor:1 random:2
+Building (20710) floor:1 random:2
+Building (33000) floor:1 random:1
+Building (11497) floor:2 random:3
+Building (24810) floor:1 random:1
+Building (14571) floor:2 random:3
+Building (30956) floor:1 random:2
+Building (23792) floor:2 random:3
+Building (16627) floor:1 random:1
+Building (18675) floor:2 random:3
+Building (27893) floor:1 random:1
+Building (33013) floor:3 random:4
+Building (25846) floor:1 random:2
+Building (12535) floor:1 random:1
+Building (26872) floor:3 random:4
+Building (15609) floor:1 random:2
+Building (34042) floor:2 random:3
+Building (22779) floor:3 random:4
+Building (28926) floor:3 random:4
+Building (21760) floor:3 random:4
+Building (29952) floor:1 random:1
+Building (10497) floor:3 random:4
+Building (20737) floor:3 random:4
+Building (13570) floor:1 random:1
+Building (14598) floor:1 random:1
+Building (15630) floor:2 random:3
+Building (16654) floor:1 random:1
+Building (27920) floor:2 random:3
+Building (12563) floor:1 random:1
+Building (26899) floor:3 random:4
+Building (33043) floor:1 random:1
+Building (19733) floor:2 random:3
+Building (25877) floor:2 random:3
+Building (9494) floor:1 random:1
+Building (17686) floor:1 random:2
+Building (22806) floor:3 random:4
+Building (33048) floor:1 random:2
+Building (28953) floor:2 random:3
+Building (21787) floor:1 random:2
+Building (29979) floor:1 random:1
+Building (10524) floor:1 random:1
+Building (13598) floor:1 random:1
+Building (20768) floor:2 random:3
+Building (24864) floor:1 random:1
+Building (14625) floor:3 random:4
+Building (11560) floor:3 random:4
+Building (15657) floor:1 random:2
+Building (16681) floor:3 random:4
+Building (23850) floor:2 random:3
+Building (27947) floor:1 random:2
+Building (18733) floor:2 random:3
+Building (12590) floor:3 random:4
+Building (26926) floor:2 random:3
+Building (19760) floor:3 random:4
+Building (25904) floor:1 random:2
+Building (17713) floor:3 random:4
+Building (22835) floor:1 random:1
+Building (28980) floor:2 random:3
+Building (30006) floor:3 random:4
+Building (33078) floor:2 random:3
+Building (13625) floor:1 random:1
+Building (33083) floor:1 random:2
+Building (14652) floor:2 random:3
+Building (10557) floor:3 random:4
+Building (31038) floor:3 random:4
+Building (20799) floor:3 random:4
+Building (24895) floor:1 random:2
+Building (31040) floor:2 random:3
+Building (11586) floor:2 random:3
+Building (35139) floor:2 random:3
+Building (15684) floor:2 random:3
+Building (16708) floor:1 random:2
+Building (23877) floor:2 random:3
+Building (28997) floor:1 random:2
+Building (27978) floor:3 random:4
+Building (19787) floor:2 random:3
+Building (25931) floor:2 random:3
+Building (9548) floor:3 random:4
+Building (17741) floor:1 random:1
+Building (22862) floor:2 random:3
+Building (18768) floor:2 random:3
+Building (30033) floor:1 random:2
+Building (13652) floor:1 random:1
+Building (11607) floor:1 random:2
+Building (10584) floor:1 random:1
+Building (20826) floor:1 random:2
+Building (33114) floor:2 random:3
+Building (24923) floor:3 random:4
+Building (15711) floor:2 random:3
+Building (16736) floor:3 random:4
+Building (23904) floor:3 random:4
+Building (29025) floor:3 random:4
+Building (31073) floor:3 random:4
+Building (28005) floor:1 random:1
+Building (9574) floor:1 random:1
+Building (25958) floor:1 random:2
+Building (19815) floor:1 random:1
+Building (12650) floor:1 random:2
+Building (18795) floor:3 random:4
+Building (21869) floor:1 random:2
+Building (13679) floor:3 random:4
+Building (10611) floor:1 random:1
+Building (24952) floor:1 random:2
+Building (15738) floor:3 random:4
+Building (20858) floor:3 random:4
+Building (33146) floor:3 random:4
+Building (16763) floor:1 random:1
+Building (23931) floor:1 random:1
+Building (29052) floor:2 random:3
+Building (14718) floor:3 random:4
+Building (27008) floor:3 random:4
+Building (9601) floor:1 random:2
+Building (19843) floor:2 random:3
+Building (22916) floor:2 random:3
+Building (28036) floor:3 random:4
+Building (25989) floor:2 random:3
+Building (34185) floor:3 random:4
+Building (12682) floor:3 random:4
+Building (13706) floor:3 random:4
+Building (11661) floor:1 random:1
+Building (10638) floor:1 random:2
+Building (31123) floor:1 random:1
+Building (15765) floor:1 random:1
+Building (20885) floor:1 random:1
+Building (23958) floor:3 random:4
+Building (34198) floor:1 random:2
+Building (16791) floor:1 random:2
+Building (14745) floor:1 random:2
+Building (24985) floor:2 random:3
+Building (9628) floor:2 random:3
+Building (27036) floor:2 random:3
+Building (29084) floor:2 random:3
+Building (17821) floor:3 random:4
+Building (19871) floor:1 random:2
+Building (18848) floor:1 random:1
+Building (22944) floor:1 random:2
+Building (26016) floor:3 random:4
+Building (21923) floor:1 random:2
+Building (28067) floor:2 random:3
+Building (12709) floor:2 random:3
+Building (13733) floor:1 random:1
+Building (36263) floor:1 random:1
+Building (10670) floor:1 random:1
+Building (36271) floor:2 random:3
+Building (15792) floor:2 random:3
+Building (33200) floor:1 random:2
+Building (23985) floor:1 random:1
+Building (16818) floor:1 random:1
+Building (25012) floor:1 random:2
+Building (14773) floor:1 random:2
+Building (20919) floor:3 random:4
+Building (29111) floor:3 random:4
+Building (9656) floor:1 random:1
+Building (19897) floor:1 random:1
+Building (18875) floor:1 random:1
+Building (22971) floor:1 random:2
+Building (27067) floor:2 random:3
+Building (21949) floor:1 random:1
+Building (28094) floor:2 random:3
+Building (31166) floor:1 random:2
+Building (11716) floor:3 random:4
+Building (35268) floor:1 random:1
+Building (36294) floor:1 random:1
+Building (10697) floor:1 random:2
+Building (15819) floor:3 random:4
+Building (24012) floor:2 random:3
+Building (33228) floor:1 random:1
+Building (16846) floor:2 random:3
+Building (14800) floor:1 random:2
+Building (25042) floor:1 random:1
+Building (9683) floor:3 random:4
+Building (17875) floor:1 random:1
+Building (20947) floor:2 random:3
+Building (31188) floor:1 random:1
+Building (22998) floor:1 random:2
+Building (21976) floor:3 random:4
+Building (19929) floor:2 random:3
+Building (28121) floor:3 random:4
+Building (26074) floor:1 random:1
+Building (29146) floor:3 random:4
+Building (12763) floor:2 random:3
+Building (13796) floor:1 random:2
+Building (11749) floor:1 random:1
+Building (24038) floor:2 random:3
+Building (15847) floor:3 random:4
+Building (10728) floor:1 random:2
+Building (25069) floor:1 random:2
+Building (17902) floor:3 random:4
+Building (20974) floor:2 random:3
+Building (14831) floor:1 random:2
+Building (27120) floor:1 random:1
+Building (23025) floor:2 random:3
+Building (33266) floor:1 random:1
+Building (18933) floor:2 random:3
+Building (29173) floor:3 random:4
+Building (12790) floor:3 random:4
+Building (34295) floor:1 random:2
+Building (36343) floor:2 random:3
+Building (22008) floor:3 random:4
+Building (28152) floor:1 random:1
+Building (26105) floor:1 random:1
+Building (13823) floor:3 random:4
+Building (11778) floor:1 random:2
+Building (15874) floor:1 random:2
+Building (20995) floor:1 random:1
+Building (10756) floor:1 random:1
+Building (16901) floor:2 random:3
+Building (24069) floor:1 random:1
+Building (31239) floor:3 random:4
+Building (27146) floor:2 random:3
+Building (14860) floor:1 random:2
+Building (23052) floor:1 random:1
+Building (9742) floor:3 random:4
+Building (36366) floor:1 random:2
+Building (17935) floor:3 random:4
+Building (36367) floor:2 random:3
+Building (29200) floor:1 random:2
+Building (34320) floor:3 random:4
+Building (11795) floor:1 random:2
+Building (28179) floor:2 random:3
+Building (18964) floor:1 random:2
+Building (19988) floor:1 random:1
+Building (26132) floor:1 random:1
+Building (31252) floor:1 random:1
+Building (36372) floor:2 random:3
+Building (13850) floor:1 random:1
+Building (35354) floor:1 random:1
+Building (22043) floor:3 random:4
+Building (15901) floor:3 random:4
+Building (21022) floor:1 random:2
+Building (9759) floor:2 random:3
+Building (16928) floor:1 random:2
+Building (24097) floor:1 random:1
+Building (10787) floor:1 random:1
+Building (27174) floor:3 random:4
+Building (14887) floor:2 random:3
+Building (23079) floor:2 random:3
+Building (33319) floor:1 random:2
+Building (25128) floor:3 random:4
+Building (17962) floor:2 random:3
+Building (29227) floor:2 random:3
+Building (12845) floor:1 random:1
+Building (11822) floor:1 random:1
+Building (28206) floor:1 random:1
+Building (18991) floor:2 random:3
+Building (20018) floor:1 random:2
+Building (13877) floor:2 random:3
+Building (22070) floor:1 random:2
+Building (15928) floor:3 random:4
+Building (21049) floor:1 random:2
+Building (33338) floor:3 random:4
+Building (16955) floor:1 random:2
+Building (26171) floor:3 random:4
+Building (24124) floor:3 random:4
+Building (10814) floor:3 random:4
+Building (14914) floor:1 random:1
+Building (17990) floor:2 random:3
+Building (11849) floor:1 random:1
+Building (27209) floor:1 random:2
+Building (28233) floor:1 random:1
+Building (20046) floor:1 random:1
+Building (29262) floor:2 random:3
+Building (13904) floor:3 random:4
+Building (22097) floor:1 random:2
+Building (15955) floor:3 random:4
+Building (21076) floor:2 random:3
+Building (26197) floor:3 random:4
+Building (16982) floor:1 random:2
+Building (24151) floor:2 random:3
+Building (10842) floor:1 random:2
+Building (9820) floor:3 random:4
+Building (23132) floor:2 random:3
+Building (25183) floor:1 random:2
+Building (33376) floor:1 random:2
+Building (18017) floor:2 random:3
+Building (11876) floor:3 random:4
+Building (28260) floor:3 random:4
+Building (12901) floor:3 random:4
+Building (14949) floor:2 random:3
+Building (19046) floor:1 random:2
+Building (27240) floor:2 random:3
+Building (20073) floor:3 random:4
+Building (34409) floor:1 random:2
+Building (34410) floor:1 random:2
+Building (13931) floor:3 random:4
+Building (22124) floor:1 random:1
+Building (15982) floor:1 random:2
+Building (21103) floor:1 random:1
+Building (17009) floor:1 random:1
+Building (29297) floor:3 random:4
+Building (24178) floor:3 random:4
+Building (36467) floor:3 random:4
+Building (26228) floor:2 random:3
+Building (36468) floor:1 random:1
+Building (36469) floor:1 random:1
+Building (10870) floor:3 random:4
+Building (9847) floor:1 random:2
+Building (25210) floor:2 random:3
+Building (33403) floor:1 random:1
+Building (36475) floor:1 random:1
+Building (18044) floor:1 random:1
+Building (36476) floor:1 random:1
+Building (23165) floor:3 random:4
+Building (11903) floor:1 random:2
+Building (14975) floor:2 random:3
+Building (28287) floor:3 random:4
+Building (19072) floor:1 random:1
+Building (27267) floor:3 random:4
+Building (20100) floor:1 random:1
+Building (12933) floor:3 random:4
+Building (13959) floor:1 random:1
+Building (22151) floor:1 random:2
+Building (16010) floor:1 random:1
+Building (21130) floor:2 random:3
+Building (24205) floor:3 random:4
+Building (26255) floor:3 random:4
+Building (11920) floor:1 random:1
+Building (17040) floor:1 random:2
+Building (33425) floor:2 random:3
+Building (9875) floor:3 random:4
+Building (25237) floor:1 random:1
+Building (34453) floor:2 random:3
+Building (18071) floor:1 random:1
+Building (23192) floor:1 random:1
+Building (15002) floor:2 random:3
+Building (28314) floor:3 random:4
+Building (19100) floor:1 random:2
+Building (27294) floor:3 random:4
+Building (12960) floor:3 random:4
+Building (11937) floor:1 random:1
+Building (13986) floor:2 random:3
+Building (22178) floor:3 random:4
+Building (20132) floor:2 random:3
+Building (16037) floor:1 random:2
+Building (29352) floor:3 random:4
+Building (24233) floor:3 random:4
+Building (17066) floor:2 random:3
+Building (26282) floor:1 random:1
+Building (10924) floor:1 random:1
+Building (35500) floor:1 random:2
+Building (9902) floor:2 random:3
+Building (25264) floor:1 random:1
+Building (18098) floor:2 random:3
+Building (15029) floor:2 random:3
+Building (28341) floor:1 random:1
+Building (19127) floor:1 random:1
+Building (27321) floor:2 random:3
+Building (12987) floor:2 random:3
+Building (11964) floor:2 random:3
+Building (14013) floor:1 random:2
+Building (20159) floor:2 random:3
+Building (16064) floor:3 random:4
+Building (29378) floor:2 random:3
+Building (18115) floor:1 random:2
+Building (21187) floor:3 random:4
+Building (24260) floor:2 random:3
+Building (17093) floor:1 random:2
+Building (26309) floor:2 random:3
+Building (9929) floor:2 random:3
+Building (33482) floor:1 random:2
+Building (10955) floor:3 random:4
+Building (15056) floor:3 random:4
+Building (28368) floor:3 random:4
+Building (35536) floor:1 random:1
+Building (19154) floor:1 random:2
+Building (23251) floor:3 random:4
+Building (27348) floor:1 random:2
+Building (13014) floor:1 random:1
+Building (14040) floor:3 random:4
+Building (16091) floor:3 random:4
+Building (20187) floor:1 random:2
+Building (11996) floor:1 random:2
+Building (29405) floor:1 random:1
+Building (18142) floor:2 random:3
+Building (21214) floor:1 random:1
+Building (22239) floor:3 random:4
+Building (24287) floor:2 random:3
+Building (17120) floor:1 random:2
+Building (26336) floor:2 random:3
+Building (33504) floor:1 random:1
+Building (10982) floor:3 random:4
+Building (28395) floor:1 random:1
+Building (9964) floor:2 random:3
+Building (15084) floor:3 random:4
+Building (19181) floor:1 random:2
+Building (23278) floor:1 random:1
+Building (13041) floor:1 random:1
+Building (14067) floor:2 random:3
+Building (33524) floor:1 random:1
+Building (20214) floor:2 random:3
+Building (12023) floor:2 random:3
+Building (16119) floor:2 random:3
+Building (27383) floor:2 random:3
+Building (25336) floor:1 random:1
+Building (29432) floor:1 random:2
+Building (24314) floor:3 random:4
+Building (17147) floor:1 random:1
+Building (26363) floor:1 random:2
+Building (15101) floor:3 random:4
+Building (33533) floor:1 random:2
+Building (22270) floor:3 random:4
+Building (21250) floor:1 random:2
+Building (28423) floor:1 random:1
+Building (19209) floor:2 random:3
+Building (23305) floor:1 random:2
+Building (33545) floor:3 random:4
+Building (14094) floor:2 random:3
+Building (13072) floor:1 random:2
+Building (35601) floor:2 random:3
+Building (12050) floor:1 random:1
+Building (16146) floor:1 random:2
+Building (27410) floor:1 random:2
+Building (29459) floor:1 random:2
+Building (20245) floor:1 random:1
+Building (24341) floor:1 random:2
+Building (17175) floor:3 random:4
+Building (25367) floor:1 random:2
+Building (15128) floor:1 random:2
+Building (33564) floor:3 random:4
+Building (18208) floor:3 random:4
+Building (28450) floor:3 random:4
+Building (32546) floor:1 random:2
+Building (19236) floor:1 random:1
+Building (23332) floor:2 random:3
+Building (13099) floor:2 random:3
+Building (12077) floor:1 random:1
+Building (16173) floor:1 random:1
+Building (27437) floor:1 random:1
+Building (29486) floor:1 random:1
+Building (17202) floor:3 random:4
+Building (25394) floor:2 random:3
+Building (15155) floor:1 random:2
+Building (20276) floor:2 random:3
+Building (26421) floor:1 random:2
+Building (32567) floor:1 random:1
+Building (11064) floor:2 random:3
+Building (21304) floor:1 random:2
+Building (18235) floor:1 random:1
+Building (14140) floor:3 random:4
+Building (10046) floor:1 random:2
+Building (19262) floor:2 random:3
+Building (28478) floor:1 random:2
+Building (32574) floor:2 random:3
+Building (23359) floor:3 random:4
+Building (13126) floor:2 random:3
+Building (27464) floor:2 random:3
+Building (11081) floor:1 random:2
+Building (29513) floor:1 random:1
+Building (34634) floor:1 random:1
+Building (24395) floor:1 random:1
+Building (12108) floor:1 random:1
+Building (16204) floor:2 random:3
+Building (17229) floor:2 random:3
+Building (25421) floor:1 random:2
+Building (15182) floor:2 random:3
+Building (26448) floor:1 random:1
+Building (10066) floor:3 random:4
+Building (20306) floor:2 random:3
+Building (21331) floor:3 random:4
+Building (22355) floor:1 random:2
+Building (35667) floor:1 random:2
+Building (18262) floor:1 random:1
+Building (14167) floor:1 random:2
+Building (33623) floor:3 random:4
+Building (19289) floor:2 random:3
+Building (28505) floor:2 random:3
+Building (35676) floor:2 random:3
+Building (23390) floor:2 random:3
+Building (13154) floor:1 random:2
+Building (10083) floor:3 random:4
+Building (29540) floor:3 random:4
+Building (24422) floor:1 random:2
+Building (35686) floor:1 random:1
+Building (16231) floor:1 random:1
+Building (27495) floor:1 random:1
+Building (35687) floor:3 random:4
+Building (15208) floor:1 random:1
+Building (17256) floor:1 random:2
+Building (25448) floor:1 random:1
+Building (12139) floor:2 random:3
+Building (26475) floor:3 random:4
+Building (21358) floor:2 random:3
+Building (22382) floor:3 random:4
+Building (32624) floor:1 random:1
+Building (20337) floor:1 random:2
+Building (14194) floor:2 random:3
+Building (28532) floor:1 random:1
+Building (18293) floor:2 random:3
+Building (19317) floor:3 random:4
+Building (23418) floor:3 random:4
+Building (13181) floor:2 random:3
+Building (10110) floor:1 random:2
+Building (29567) floor:3 random:4
+Building (33664) floor:3 random:4
+Building (11137) floor:1 random:2
+Building (24449) floor:1 random:2
+Building (27522) floor:3 random:4
+Building (15235) floor:1 random:2
+Building (17283) floor:1 random:1
+Building (32643) floor:3 random:4
+Building (33667) floor:1 random:1
+Building (32644) floor:3 random:4
+Building (26502) floor:1 random:2
+Building (33670) floor:1 random:1
+Building (12167) floor:1 random:2
+Building (21385) floor:1 random:2
+Building (16266) floor:1 random:1
+Building (20363) floor:2 random:3
+Building (25487) floor:1 random:1
+Building (28559) floor:3 random:4
+Building (22418) floor:1 random:2
+Building (18324) floor:3 random:4
+Building (23446) floor:1 random:1
+Building (26519) floor:1 random:2
+Building (10138) floor:1 random:2
+Building (29595) floor:1 random:2
+Building (33691) floor:2 random:3
+Building (11164) floor:1 random:1
+Building (24476) floor:2 random:3
+Building (27549) floor:3 random:4
+Building (15262) floor:1 random:1
+Building (12194) floor:1 random:2
+Building (32674) floor:1 random:2
+Building (21412) floor:2 random:3
+Building (16297) floor:2 random:3
+Building (20394) floor:3 random:4
+Building (25515) floor:1 random:2
+Building (32683) floor:3 random:4
+Building (22444) floor:2 random:3
+Building (28590) floor:3 random:4
+Building (18351) floor:2 random:3
+Building (23474) floor:2 random:3
+Building (13236) floor:2 random:3
+Building (33717) floor:3 random:4
+Building (26550) floor:1 random:2
+Building (29622) floor:2 random:3
+Building (24504) floor:3 random:4
+Building (27576) floor:1 random:2
+Building (11193) floor:1 random:1
+Building (17339) floor:3 random:4
+Building (12221) floor:2 random:3
+Building (15295) floor:3 random:4
+Building (21440) floor:1 random:2
+Building (14276) floor:1 random:2
+Building (16324) floor:1 random:1
+Building (32708) floor:1 random:1
+Building (32709) floor:2 random:3
+Building (22471) floor:2 random:3
+Building (20425) floor:1 random:2
+Building (28617) floor:1 random:1
+Building (23501) floor:2 random:3
+Building (18382) floor:1 random:2
+Building (25550) floor:3 random:4
+Building (33742) floor:1 random:1
+Building (10193) floor:1 random:1
+Building (26577) floor:2 random:3
+Building (29649) floor:1 random:2
+Building (24531) floor:1 random:2
+Building (27603) floor:1 random:2
+Building (11220) floor:1 random:1
+Building (17366) floor:1 random:2
+Building (12247) floor:3 random:4
+Building (15322) floor:3 random:4
+Building (21466) floor:2 random:3
+Building (14303) floor:3 random:4
+Building (16351) floor:1 random:1
+Building (19427) floor:1 random:2
+Building (20451) floor:1 random:1
+Building (22499) floor:3 random:4
+Building (28644) floor:2 random:3
+Building (33767) floor:2 random:3
+Building (18409) floor:1 random:1
+Building (25577) floor:1 random:2
+Building (10220) floor:1 random:2
+Building (29676) floor:3 random:4
+Building (26605) floor:1 random:2
+Building (24558) floor:1 random:2
+Building (27630) floor:2 random:3
+Building (11248) floor:1 random:1
+Building (17393) floor:1 random:1
+Building (15349) floor:3 random:4
+Building (21493) floor:2 random:3
+Building (12278) floor:3 random:4
+Building (23545) floor:3 random:4
+Building (14330) floor:3 random:4
+Building (16379) floor:1 random:2
+Building (33787) floor:2 random:3
+Building (19454) floor:1 random:2
+Building (20478) floor:2 random:3
+Building (22527) floor:1 random:1
+Building (28671) floor:3 random:4
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+	at rescuecore2.standard.view.StandardEntityViewLayer.render(StandardEntityViewLayer.java:104)
+	at rescuecore2.view.LayerViewComponent.render(LayerViewComponent.java:129)
+	at rescuecore2.view.ViewComponent.paintComponent(ViewComponent.java:128)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1074)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JSplitPane.paintChildren(JSplitPane.java:1024)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1083)
+	at java.desktop/javax.swing.JLayeredPane.paint(JLayeredPane.java:590)
+	at java.desktop/javax.swing.JComponent.paintChildren(JComponent.java:907)
+	at java.desktop/javax.swing.JComponent.paintToOffscreen(JComponent.java:5262)
+	at java.desktop/javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:246)
+	at java.desktop/javax.swing.RepaintManager.paint(RepaintManager.java:1323)
+	at java.desktop/javax.swing.JComponent.paint(JComponent.java:1060)
+	at java.desktop/java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39)
+	at java.desktop/sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:78)
+	at java.desktop/sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:115)
+	at java.desktop/java.awt.Container.paint(Container.java:2002)
+	at java.desktop/java.awt.Window.paint(Window.java:3940)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:876)
+	at java.desktop/javax.swing.RepaintManager$4.run(RepaintManager.java:848)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:848)
+	at java.desktop/javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:823)
+	at java.desktop/javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:772)
+	at java.desktop/javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1890)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)

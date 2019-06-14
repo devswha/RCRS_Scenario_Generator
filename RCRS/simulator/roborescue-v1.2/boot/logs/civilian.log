@@ -1,0 +1,8 @@
+DEBUG sample.SampleCivilian : Starting Connection from sample.SampleCivilian. Registry: SampleCivilian filter registry
+DEBUG sample.SampleCivilian : Instantiating random number generator: org.uncommons.maths.random.MersenneTwisterRNG
+DEBUG sample.SampleCivilian : Using seed 380716790
+INFO sample.SampleCivilian Civilian (380716713): Sample civilian connected
+DEBUG sample.SampleCivilian Civilian (380716713): Communcation model: rescuecore2.standard.kernel.comms.ChannelCommunicationModel
+DEBUG sample.SampleCivilian Civilian (380716713): Using speak model
+INFO sample.SampleCivilian Civilian (380716713): Civilian 380716713 connected
+DEBUG sample.SampleCivilian : Starting Connection from sample.SampleCivilian. Registry: SampleCivilian filter registry
