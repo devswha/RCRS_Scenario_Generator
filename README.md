@@ -1,6 +1,8 @@
 
 # Robocup Rescue Simulation Scenario Generator
-We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data. Our scenario generator run as follows: (1) Input the setting of scenario (i.e., the number of civilians and fires, location of the rescue team, etc.) and the number of scenarios to create; and (2) The generator automatically runs the scenario on RCRS; and (3) As the simulation runs, the generator automatically parses the screenshot image data and text data (i.e., the number of injured civilians, rescue team location, etc.)
+We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data. 
+
+Our scenario generator run as follows: (1) Input the setting of scenario (i.e., the number of civilians and fires, location of the rescue team, etc.) and the number of scenarios to create; and (2) The generator automatically runs the scenario on RCRS; and (3) As the simulation runs, the generator automatically parses the screenshot image data and text data (i.e., the number of injured civilians, rescue team location, etc.)
 
 ## 1. Software Pre-Requisites
 
@@ -17,14 +19,13 @@ $ unzip RCRS.zip
 ```
 ## 3. Configuration
 
-In this repository, there is configuration file called "config.txt"
-You can modify the number of civilians, the number of initial fire building and the number of data sets.
-Also you can modifiy the path where datasets are stored.
+In this repository, there is configuration file called "config.txt"  
+You can modify the number of civilians, the number of initial fire building and the number of data sets.  
+Also you can modifiy the path where datasets are stored.  
 
 ### Map data constant
-NUM_OF_CIVILIANS: The number of civilians in the simulation map
-
-NUM_OF_FIRES: The number of initial fire buildings
+NUM_OF_CIVILIANS: The number of civilians in the simulation map  
+NUM_OF_FIRES: The number of initial fire buildings  
 
 LIMIT_TIME_STEP: The start point of disaster scenario time step to save image dataset.
 
