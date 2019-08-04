@@ -23,8 +23,11 @@ Also you can modifiy the path where datasets are stored.
 
 ### Map data constant
 NUM_OF_CIVILIANS: The number of civilians in the simulation map
+
 NUM_OF_FIRES: The number of initial fire buildings
+
 LIMIT_TIME_STEP: The start point of disaster scenario time step to save image dataset.
+
 LIMIT_CIVILIAN_HP: The treshold of civilians' HP point which determine civilian is injured or not
 
 ### Train and test data constant
