@@ -1,13 +1,10 @@
 # Robocup Rescue Simulation Scenario Generator
-We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data.
+We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data. The detail about [The RoboCup Rescue Simulation (RCRS)](https://rescuesim.robocup.org/) and our project, see this [page](https://swhako.github.io/swha/resources/Intro/).
 
 Our scenario generator run as follows:
-```
 1. Input the setting of scenario (i.e., the number of civilians and fires, location of the rescue team, etc.), the number of scenarios to create and the size of grid to divide into.
 2. The generator automatically label by the grid and runs the scenario on RCRS
 3. As the simulation runs, the generator automatically parses the screenshot image data and text data (i.e., the number of injured civilians, rescue team location, etc.)
-```
-(1) Input the setting of scenario (i.e., the number of civilians and fires, location of the rescue team, etc.) and the number of scenarios to create; and (2) The generator automatically runs the scenario on RCRS; and (3) As the simulation runs, the generator automatically parses the screenshot image data and text data (i.e., the number of injured civilians, rescue team location, etc.)
 
 ## 1. Software Pre-Requisites
 - Git
@@ -43,14 +40,20 @@ TEST_GENERATED_MAP_DIR: The path of the source of simulation map data for testin
 TEST_GENERATED_IMAGE_DIR: The path of the screenshot image of simulation map data for testing  
 
 ## 4. Execute
+Generate the disaster scenarios on RCRS
 ```bash
-$ python3 train_data_generator.py [Map Name]
-$ python3 test_data_generator.py [Map Name]
+$ python3 ScenarioGen_train.py [Map Name]
+$ python3 ScenarioGen_test.py [Map Name]
+```
+Label the generated disaster scenarios data
+```bash
+$ python3 ScenarioLabel_train.py [Map Name]
+$ python3 ScenarioLabel_test.py [Map Name]
 ```
 
 ## 5. Map List
 - Kobe
 - Joao
 
-## 6. Download Link
-[Robocup Rescue Simulation Scenario Generator GitHub Page](https://github.com/swhaKo/Scenario_Generator)
+## 6. Project Page
+[GitHub](https://swhako.github.io/swha/)
