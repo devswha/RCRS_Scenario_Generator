@@ -27,8 +27,8 @@ DATASET_DIR ./dataset
 TRAIN_GENERATED_MAP_DIR ./dataset/raw/train/generated_map
 TRAIN_GENERATED_IMAGE_DIR ./dataset/raw/train/generated_image
 TRAIN_GENERATED_NPY_DIR ./dataset/raw/train/generated_map
-TEST_GENERATED_MAP_DIR ./dataset2/raw/test/generated_map
-TEST_GENERATED_IMAGE_DIR ./dataset2/raw/test/generated_image
-MODELS_DIR ./model_new
+TEST_GENERATED_MAP_DIR ./dataset/raw/test/generated_map
+TEST_GENERATED_IMAGE_DIR ./dataset/raw/test/generated_image
+MODELS_DIR ./model
 RESULTS_DIR ./result
 
