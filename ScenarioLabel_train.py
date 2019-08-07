@@ -41,7 +41,7 @@ for dataSetNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
     civilianLocFile = open("%s/Parse/civilianLoc.txt" % dataSetPath, 'r')
     civilianHPFile = open("%s/Parse/civilianHP.txt" % dataSetPath, 'r')
 
-    #
+    # Create or Copy the Label directory
     if os.path.exists("%s/Label/%s" % (dataSetPath, grid)):
         shutil.rmtree("%s/Label/%s" % (dataSetPath, grid))
     os.makedirs("%s/Label/%s" % (dataSetPath, grid))

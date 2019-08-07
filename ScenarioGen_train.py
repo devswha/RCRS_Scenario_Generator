@@ -39,6 +39,8 @@ for paragraph in baseMapFile:
             pass
 RnBList = roadList + buildingList
 baseMapFile.close()
+
+
 print("[INFO] Base map's road and building list is parsed")
 print("[INFO] Number of roads : %d" % len(roadList))
 print("[INFO] Number of buildings : %d" % len(buildingList))
