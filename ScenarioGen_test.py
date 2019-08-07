@@ -12,7 +12,7 @@ INITIAL_TIME = 0
 
 # Set map name
 if not len(sys.argv) is 2:
-    print("Usage : python train_data_generator.py [Map name]")
+    print("Usage : python ScenarioGen_test.py [Map name]")
     exit(1)
 else:
     mapName = sys.argv[1]
@@ -24,7 +24,7 @@ else:
 # Load base map.gml file
 # Parsing road and building location
 now = datetime.datetime.now().strftime("%d %H:%M:%S")
-print("[INFO][%s] Start to generate %s #%d ~ #%d maps" % (now, mapName, TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM))
+print("[INFO][%s] Start to generate %s #%d ~ #%d maps" % (now, mapName, TEST_START_MAP_NUM, TEST_END_MAP_NUM))
 roadList = []
 buildingList = []
 baseMapFile = open('%s/%s/map/map.gml' % (BASE_MAP_DIR, mapName), 'r')
@@ -39,6 +39,8 @@ for paragraph in baseMapFile:
             pass
 RnBList = roadList + buildingList
 baseMapFile.close()
+
+
 print("[INFO] Base map's road and building list is parsed")
 print("[INFO] Number of roads : %d" % len(roadList))
 print("[INFO] Number of buildings : %d" % len(buildingList))
@@ -49,10 +51,10 @@ print("[INFO] Number of fires : %d" % NUM_OF_FIRES)
 # Copy base map.gml file
 # Set civilians locations randomly within map's buildings and roads
 baseScenarioFile = open('%s/%s/map/scenario.xml' % (BASE_MAP_DIR, mapName), 'r')
-for mapNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
+for mapNum in range(TEST_START_MAP_NUM, TEST_END_MAP_NUM+1):
     # Create each maps directory
-    mapPath = "%s/%s/%s_%s/map/" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, mapNum)
-    configPath = "%s/%s/%s_%s/config" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, mapNum)
+    mapPath = "%s/raw/test/generated_map/%s/%s_%s/map/" % (DATASET_DIR, mapName, mapName, mapNum)
+    configPath = "%s/raw/test/generated_map/%s/%s_%s/config" % (DATASET_DIR, mapName, mapName, mapNum)
     if not os.path.exists(mapPath):
         os.makedirs(mapPath)
 
@@ -90,12 +92,12 @@ baseScenarioFile.close()
 
 # Create image
 now = datetime.datetime.now().strftime("%d %H:%M:%S")
-print("[INFO][%s] Finish to generate %s #%d ~ #%d maps" % (now, mapName, TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM))
-print("[INFO][%s] Start to generate %s #%d ~ #%d map images" % (now, mapName, TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM))
-for imageSetNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
+print("[INFO][%s] Finish to generate %s #%d ~ #%d maps" % (now, mapName, TEST_START_MAP_NUM, TEST_END_MAP_NUM))
+print("[INFO][%s] Start to generate %s #%d ~ #%d map images" % (now, mapName, TEST_START_MAP_NUM, TEST_END_MAP_NUM))
+for imageSetNum in range(TEST_START_MAP_NUM, TEST_END_MAP_NUM+1):
     # Create each imageSet directory
-    imageSetPath = "%s/%s/%s_%d" % (TRAIN_GENERATED_IMAGE_DIR, mapName, mapName, imageSetNum)
-    generatedMapPath = "%s/%s/%s_%d" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, imageSetNum)
+    imageSetPath = "%s/raw/test/generated_image/%s/%s_%d" % (DATASET_DIR, mapName, mapName, imageSetNum)
+    generatedMapPath = "%s/raw/test/generated_map/%s/%s_%d" % (DATASET_DIR, mapName, mapName, imageSetNum)
     if not os.path.exists(imageSetPath):
         os.makedirs(imageSetPath)
         os.makedirs("%s/Image" % imageSetPath)
@@ -190,7 +192,7 @@ for imageSetNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
     os.chdir(os.path.abspath('./'))
 
 now = datetime.datetime.now().strftime("%d %H:%M:%S")
-print("[INFO][%s] Finish to generate %s #%d ~ #%d map images" % (now, mapName, TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM))
+print("[INFO][%s] Finish to generate %s #%d ~ #%d map images" % (now, mapName, TEST_START_MAP_NUM, TEST_END_MAP_NUM))
 sys.exit()
 
 

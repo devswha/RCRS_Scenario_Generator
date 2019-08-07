@@ -20,8 +20,6 @@ for line in lines:
         NUM_OF_CIVILIANS = int(line.split()[1])
     if "NUM_OF_FIRES" in line:
         NUM_OF_FIRES = int(line.split()[1])
-    if "SEQUENCE_TIME_STEP" in line:
-        SEQUENCE_TIME_STEP = int(line.split()[1])
     if "LIMIT_TIME_STEP" in line:
         LIMIT_TIME_STEP = int(line.split()[1])
     if "LIMIT_CIVILIAN_HP" in line:
@@ -48,18 +46,6 @@ for line in lines:
     ###########################################################
     # Directory data constant
     ###########################################################
-    if "TRAIN_GENERATED_MAP_DIR" in line:
-        TRAIN_GENERATED_MAP_DIR = os.path.abspath(line.split()[1])
-    if "TRAIN_GENERATED_IMAGE_DIR" in line:
-        TRAIN_GENERATED_IMAGE_DIR = os.path.abspath(line.split()[1])
-    if "TEST_GENERATED_MAP_DIR" in line:
-        TEST_GENERATED_MAP_DIR = os.path.abspath(line.split()[1])
-    if "TEST_GENERATED_IMAGE_DIR" in line:
-        TEST_GENERATED_IMAGE_DIR = os.path.abspath(line.split()[1])
-    if "RESULTS_DIR" in line:
-        RESULTS_DIR = os.path.abspath(line.split()[1])
-    if "MODELS_DIR" in line:
-        MODELS_DIR = os.path.abspath(line.split()[1])
     if "DATASET_DIR" in line:
         DATASET_DIR = os.path.abspath(line.split()[1])
 

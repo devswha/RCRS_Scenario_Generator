@@ -12,7 +12,7 @@ INITIAL_TIME = 0
 
 # Set map name
 if not len(sys.argv) is 2:
-    print("Usage : python train_data_generator.py [Map name]")
+    print("Usage : python ScenarioGen_train.py [Map name]")
     exit(1)
 else:
     mapName = sys.argv[1]
@@ -53,8 +53,8 @@ print("[INFO] Number of fires : %d" % NUM_OF_FIRES)
 baseScenarioFile = open('%s/%s/map/scenario.xml' % (BASE_MAP_DIR, mapName), 'r')
 for mapNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
     # Create each maps directory
-    mapPath = "%s/%s/%s_%s/map/" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, mapNum)
-    configPath = "%s/%s/%s_%s/config" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, mapNum)
+    mapPath = "%s/raw/train/generated_map/%s/%s_%s/map/" % (DATASET_DIR, mapName, mapName, mapNum)
+    configPath = "%s/raw/train/generated_map/%s/%s_%s/config" % (DATASET_DIR, mapName, mapName, mapNum)
     if not os.path.exists(mapPath):
         os.makedirs(mapPath)
 
@@ -96,8 +96,8 @@ print("[INFO][%s] Finish to generate %s #%d ~ #%d maps" % (now, mapName, TRAIN_S
 print("[INFO][%s] Start to generate %s #%d ~ #%d map images" % (now, mapName, TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM))
 for imageSetNum in range(TRAIN_START_MAP_NUM, TRAIN_END_MAP_NUM+1):
     # Create each imageSet directory
-    imageSetPath = "%s/%s/%s_%d" % (TRAIN_GENERATED_IMAGE_DIR, mapName, mapName, imageSetNum)
-    generatedMapPath = "%s/%s/%s_%d" % (TRAIN_GENERATED_MAP_DIR, mapName, mapName, imageSetNum)
+    imageSetPath = "%s/raw/train/generated_image/%s/%s_%d" % (DATASET_DIR, mapName, mapName, imageSetNum)
+    generatedMapPath = "%s/raw/train/generated_map/%s/%s_%d" % (DATASET_DIR, mapName, mapName, imageSetNum)
     if not os.path.exists(imageSetPath):
         os.makedirs(imageSetPath)
         os.makedirs("%s/Image" % imageSetPath)
