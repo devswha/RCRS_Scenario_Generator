@@ -1,11 +1,5 @@
----
-layout: single
-classes: wide
-title: "Robocup Rescue Simulation Scenario Generator"
-permalink: /resources/Scenario_Generator/
-read_time: true
-toc: false
----
+# Robocup Rescue Simulation Scenario Generator
+
 We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data. The detail about [The RoboCup Rescue Simulation (RCRS)](https://rescuesim.robocup.org/) and our project, see this [page](https://swhako.github.io/swha/resources/Intro/).
 {: style="text-align: justify;"}
 
