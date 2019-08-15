@@ -9,17 +9,17 @@ buf = 10
 addressInfo = ""
 mapName = ""
 INITIAL_TIME = 0
+FH_DATA_AUG = False
 
 # Set map name
 if not len(sys.argv) is 2:
-    print("Usage : python ScenarioGen_test.py [Map name]")
+    print("Usage : python Generator_test.py [Map name]")
     exit(1)
 else:
     mapName = sys.argv[1]
     if not os.path.exists("%s/%s" % (BASE_MAP_DIR, mapName)):
         print("%s/%s is not exist!" % (BASE_MAP_DIR, mapName))
         exit(1)
-
 
 # Load base map.gml file
 # Parsing road and building location

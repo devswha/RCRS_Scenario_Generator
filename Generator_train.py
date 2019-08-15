@@ -9,16 +9,27 @@ buf = 10
 addressInfo = ""
 mapName = ""
 INITIAL_TIME = 0
+FH_DATA_AUG = False
 
 # Set map name
 if not len(sys.argv) is 2:
-    print("Usage : python ScenarioGen_train.py [Map name]")
+    print("Usage : python Generator_train.py [Map name]")
     exit(1)
 else:
     mapName = sys.argv[1]
     if not os.path.exists("%s/%s" % (BASE_MAP_DIR, mapName)):
         print("%s/%s is not exist!" % (BASE_MAP_DIR, mapName))
         exit(1)
+    if FH_DATA_AUG == "True" or FH_DATA_AUG == "False":
+        print("You should write True or False to FH_DATA_AUG in config.txt")
+        exit(1)
+
+FH_DATA_AUG = bool(FH_DATA_AUG)
+# Feature Highlight Data Augmentation
+if FH_DATA_AUG:
+    shutil.copy("RCRS/simulator/roborescue-v1.2/jars/FH/standard.jar", "RCRS/simulator/roborescue-v1.2/jars")
+else:
+    shutil.copy("RCRS/simulator/roborescue-v1.2/jars/NON-FH/standard.jar", "RCRS/simulator/roborescue-v1.2/jars")
 
 
 # Load base map.gml file
