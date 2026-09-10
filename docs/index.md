@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Scenario Generator"
+---
+
 # Robocup Rescue Simulation Scenario Generator
 
 We developed a scenario generator to train the machine running model. In deep learning with image processing, it takes a lot of image data to train the machine learning model. And it takes a lot of work to generate this amount of data by a human. Therefore, we have developed a scenario generator that automatically generates simulated image data. The detail about [The RoboCup Rescue Simulation (RCRS)](https://rescuesim.robocup.org/) and our project, see this [page](https://devswha.github.io/RCRS_Scenario_Generator/intro/).
@@ -44,7 +49,7 @@ $ python3 Generator_test.py [Map Name]
 When you execute the Scenario Generator you can see the automatically run the two terminal and simulator. The simulation viewer that is displayed on the full screen can be closed. One of the terminals run as a server. Server terminal shows the setting of the scenario initially and how much scenario creation is in progress. And the other terminal s a client. Client terminal runs the RCRS and sends simulation data to the server. After finish to run one scenario, it is automatically closed and run the next scenario. This server-client run locally, and it is similar to the official RCRS. If you want to know the detail, please refer to the official RCRS homepage. The screenshot of Scenario Generator is the figure as below:
 
 
-![Robocup Rescue Simulation](docs/assets/images/Screenshot.png)
+![Robocup Rescue Simulation]({{ site.baseurl }}/assets/images/Screenshot.png)
 
 
 

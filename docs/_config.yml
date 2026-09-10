@@ -1,0 +1,8 @@
+title: RCRS Scenario Generator
+url: https://devswha.github.io
+baseurl: /RCRS_Scenario_Generator
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - RESTORATION.md
